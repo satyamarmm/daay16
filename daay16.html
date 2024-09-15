@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nav Bar</title>
+<style>
+*{
+    margin: 0%;
+}
+.nav{
+    width: 97.4%;
+    height: 75px;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+.nav a{
+    padding: 30px;
+}
+
+@media screen and (max-device-width:800px)
+{
+    .nav{
+        display: grid;
+        background: url(https://t3.ftcdn.net/jpg/05/49/37/30/360_F_549373036_sjqy4Y3BUfFKAAELVfvOw0gIDAZ6QmH6.jpg);
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 200px;
+        padding-left: 20px;
+    }
+    .nav a{
+        padding: 0%;
+    }
+}
+.navv{
+   
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width:650px;
+    height: 450px;
+    background: url(https://images.unsplash.com/photo-1525869916826-972885c91c1e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+    gap: 10px;
+    font-family: cursive;
+}
+.d{
+    color: rgb(24, 23, 23);
+    background-color: rgb(114, 185, 236);
+    flex: 25%;
+}
+@media screen and (max-device-width:800px){
+    .d{
+        color: white;
+        background-color: lightcoral;
+        font-family: monospace;
+       
+    }
+.div{
+    display: grid;
+}
+.navv{
+    background: url(https://images.unsplash.com/photo-1544979590-37e9b47eb705?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width:550px;
+    height: 750px;
+    background-size: cover;
+    justify-content: center;
+    margin-left: 200px;
+}
+}
+
+
+</style>
+
+</head>
+<body>
+        <div class="nav">
+            <p>Logo</p>
+            <a>Home</a>
+            <a>Services</a>
+            <a>Products</a>
+            <a>Contact Us</a>
+        </div>
+
+        <div class="navv">
+<!-- <img src="https://images.unsplash.com/photo-1525869916826-972885c91c1e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    alt="" > -->
+        </div>
+        <div class="div">
+            <div class="d"> Hem </div>
+            <div class="d"> Veera </div>
+            <div class="d"> Venkata </div>
+            <div class="d"> Satya </div>
+            <div class="d"> Amarnath </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae perspiciatis
+             saepe omnis iure ea pariatur ab nam eius! Ut doloremque veritatis libero eum ratione sequi alias saepe sapiente id.</p>
+</body>
+</html>
